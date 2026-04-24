@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>🌦️ Mardan Weather</h1>
+
+    <p>Temperature: {{ weather['temperature'] }}°C</p>
+    <p>Wind Speed: {{ weather['windspeed'] }} km/h</p>
+    <p>Code: {{ weather['code'] }}</p>
+    <p>Time: {{ weather['time'] }}</p>
+  </div>
+
+</body>
+</html>
