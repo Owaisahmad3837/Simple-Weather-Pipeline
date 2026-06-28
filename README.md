@@ -110,7 +110,3 @@ http://127.0.0.1:5000
 **Owais Ahmad**
 
 Software Engineer | Data Engineering Enthusiast
-
-
-This README positions it correctly: **beginner ETL project**, but still shows you understand data engineering concepts. It avoids pretending you built a production pipeline with Airflow/Kafka.
-```
